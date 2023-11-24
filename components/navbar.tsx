@@ -154,7 +154,6 @@ const Navbar = () => {
           <p className="pb-[3px] hover:text-[#f8d878] hover:border-b-[#f8d878] hover:border-b-[1px] cursor-pointer transition duration-500">
             git cards
           </p>
-          tT
         </div>
         <div className="ml-[8rem]">
           <img src="/logo.webp" alt="" className="h-[10vh]" />
