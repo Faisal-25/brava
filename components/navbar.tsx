@@ -1,5 +1,12 @@
 "use client";
-import React, { ElementRef, Ref, RefObject, useRef } from "react";
+import React, {
+  ElementRef,
+  Ref,
+  RefObject,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import {
   FiArrowDown,
   FiInstagram,
@@ -57,7 +64,7 @@ const Navbar = () => {
 
   return (
     <>
-      <TopBanner />
+      {<TopBanner />}
       <div className="z-50 bg-neutral-800 w-full h-[12vh] m-0 p-0 flex items-center justify-between px-12 fixed  ">
         <div className="flex items-center gap-8 text-white font-semibold text-muted-foreground text-xl">
           <div

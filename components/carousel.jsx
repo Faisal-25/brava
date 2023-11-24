@@ -59,14 +59,14 @@ function Carousel() {
   }, [currentIndex, slides.length]);
 
   return (
-    <div className="mt-[12vh] h-[90vh] w-full m-auto  relative group">
+    <div className="pt-[11.9vh] h-[90vh] w-full m-auto  relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full  bg-center bg-cover duration-500  bg-img"
       ></div>
       <div
         className={`w-[15%] text-white  absolute top-[30vh] opacity-100 containerFont ${
-          slides[currentIndex].right ? "right-[6rem]" : "left-[3rem]"
+          slides[currentIndex].right ? "right-[6rem]" : "left-[6rem]"
         }`}
       >
         <h1 className=" text-[70px]">{slides[currentIndex].text}</h1>
